@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <h1>Standard Calculator</h1>
+    <div class="container">
+        <div class="calculator">
+            <div style="position: relative;">
+                <input type="text" id="Raw" placeholder="0" readonly>
+                <input type="text" id="Result" placeholder="Result" readonly>
+            </div>
+            <div>
+                <button class="btn Operation">%</button>
+                <button class="btn Operation">CE</button>
+                <button class="btn Operation">C</button>
+                <div class= "Operation cross">
+                    <i class="fa-solid fa-delete-left"></i>
+                </div>                
+            </div>
+            <div>
+                <button class="btn Operation">1/x</button>
+                <button class="btn Operation">x<sup>2</sup></button>
+                <button class="btn Operation">√x</button>
+                <button class="btn Operation">÷</button>
+            </div>
+            <div>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn Operation">x</button>
+            </div>
+            <div>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn Operation">-</button>
+            </div>
+            <div>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn Operation">+</button>
+            </div>
+            <div>
+                <button class="btn Operation">+/-</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn equal">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
